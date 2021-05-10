@@ -18,7 +18,7 @@ func TestNew(t *testing.T) {
 	want := []Point{{
 		X: 12,
 		Y: 10,
-	},{
+	}, {
 		X: 4,
 		Y: 14,
 	}}
@@ -48,7 +48,6 @@ func TestLoad(t *testing.T) {
 		t.Fail()
 	}
 }
-
 
 func TestLoadFigure(t *testing.T) {
 

@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4734a4be-55dc-427b-b25e-dabc07412d80" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/intersection.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/intersection.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rcal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rectangle/figures/fig1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/figures/fig1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rectangle/rectangle.go" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/rectangle.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rectangle/rectangle_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/rectangle_test.go" afterDir="false" />
-    </list>
+    <list default="true" id="4734a4be-55dc-427b-b25e-dabc07412d80" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

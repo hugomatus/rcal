@@ -36,8 +36,8 @@ var intersectionCmd = &cobra.Command{
 
 		points := recA.Intersection(*recB)
 
-		for k,v := range points {
-			fmt.Printf("Points of Intersection in Block No. %d : %v \n",k,v)
+		for k, v := range points {
+			fmt.Printf("Points of Intersection in Block No. %d : %v \n", k, v)
 
 		}
 	},
