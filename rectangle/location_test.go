@@ -1,4 +1,5 @@
 package rectangle
+
 import (
 	"fmt"
 	"github.com/stretchr/testify/assert"
