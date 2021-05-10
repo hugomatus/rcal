@@ -101,11 +101,11 @@ func parseCoords(coords string) *rectangle.Rectangle {
 	}
 
 	result = append(result, rectangle.Point{
-		X: coordsAsInt[0],
-		Y: coordsAsInt[1],
-	}, rectangle.Point{
 		X: coordsAsInt[2],
 		Y: coordsAsInt[3],
+	}, rectangle.Point{
+		X: coordsAsInt[0],
+		Y: coordsAsInt[1],
 	})
 
 	rec := rectangle.New(result[0], result[1])

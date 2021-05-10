@@ -69,7 +69,7 @@ func (r Rectangle) isValid() bool {
 }
 
 // New create and returns a pointer to a Rectangle
-func New(BottomLeft Point, TopRight Point) *Rectangle {
+func New(TopRight Point, BottomLeft Point) *Rectangle {
 	r := new(Rectangle)
 	r.TopLeft = Point{
 		X: BottomLeft.X,

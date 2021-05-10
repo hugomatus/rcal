@@ -1,22 +1,38 @@
 [
   {
-    "BottomLeft": {
+    "TopLeft": {
       "X": 6,
-      "Y": 4
+      "Y": 10
     },
     "TopRight": {
       "X": 14,
       "Y": 10
+    },
+    "BottomLeft": {
+      "X": 6,
+      "Y": 4
+    },
+    "BottomRight": {
+      "X": 14,
+      "Y": 4
     }
   },
   {
-    "BottomLeft": {
+    "TopLeft": {
       "X": 4,
-      "Y": 8
+      "Y": 12
     },
     "TopRight": {
       "X": 8,
       "Y": 12
+    },
+    "BottomLeft": {
+      "X": 4,
+      "Y": 8
+    },
+    "BottomRight": {
+      "X": 8,
+      "Y": 8
     }
   }
 ]

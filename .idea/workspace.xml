@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4734a4be-55dc-427b-b25e-dabc07412d80" name="Default Changelist" comment="" />
+    <list default="true" id="4734a4be-55dc-427b-b25e-dabc07412d80" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/root.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/root.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rectangle/figures/fig1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/figures/fig1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rectangle/location.go" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/location.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rectangle/location_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/location_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rectangle/rectangle.go" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/rectangle.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rectangle/rectangle_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/rectangle_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rectangle/test_data/rectangle_data_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/test_data/rectangle_data_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rectangle/test_data/rectangle_data_3.json" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/test_data/rectangle_data_3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rectangle/usecases/uc_1-intersection.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/usecases/uc_1_intersection.JPG" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,12 +54,12 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/rectangle/usecases" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/rectangle/figures" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/rectangle/usecases" />
       <recent name="$PROJECT_DIR$/rectangle/figures" />
+      <recent name="$PROJECT_DIR$/rectangle/usecases" />
       <recent name="$PROJECT_DIR$/rectangle/test_data" />
       <recent name="$PROJECT_DIR$/rectangle" />
     </key>
@@ -71,6 +82,18 @@
       <pattern value="^\QTestLoadFigure\E$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestLocation_4 in rcal/rectangle" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="rcal" />
+      <working_directory value="$PROJECT_DIR$/rectangle" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="rcal/rectangle" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestLocation_4\E$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go test rcal/rectangle" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="rcal" />
       <working_directory value="$PROJECT_DIR$/rectangle" />
@@ -85,6 +108,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Go Test.go test rcal/rectangle" />
+        <item itemvalue="Go Test.TestLocation_4 in rcal/rectangle" />
         <item itemvalue="Go Test.TestLoadFigure in rcal/rectangle" />
       </list>
     </recent_temporary>
