@@ -1,4 +1,5 @@
 # rcal cli
+
 Calculates the following features between two rectangles R1 and R2
 
 - Intersection
@@ -6,6 +7,7 @@ Calculates the following features between two rectangles R1 and R2
 - Adjacency
 
 ## Commands
+
 ### Intersection
 
 ```text

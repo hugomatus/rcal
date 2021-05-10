@@ -166,3 +166,37 @@ func LoadFigure(figure int) error {
 
 	return nil
 }
+
+//Intersection confirms if rectangles r1 and r2 intersect
+func (r1 Rectangle) Intersection(r2 Rectangle) PointsOfIntersection {
+
+	if r1.xIntersect(r2) && r1.yIntersect(r2) {
+
+		points := r1.Locate(r2)
+
+		for location, point := range points {
+			if len(point) == 0 {
+				delete(points, location)
+			}
+
+		}
+
+		return points
+	}
+
+	return nil
+}
+
+func (r1 Rectangle) xIntersect(r2 Rectangle) bool {
+
+	if r1.xMin() < r2.xMax() && r1.xMax() > r2.xMin() {
+		return true
+	}
+	return false
+}
+
+//yIntersect
+func (r1 Rectangle) yIntersect(r2 Rectangle) bool {
+
+	return r1.yMin() < r2.yMax() && r1.yMax() > r2.yMin()
+}
