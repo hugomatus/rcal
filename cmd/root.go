@@ -86,7 +86,6 @@ func initConfig() {
 	}
 }
 
-
 // parseCoords
 func parseCoords(coords string) *rectangle.Rectangle {
 

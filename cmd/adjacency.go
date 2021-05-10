@@ -23,7 +23,7 @@ import (
 var adjacencyCmd = &cobra.Command{
 	Use:   "adjacency",
 	Short: "calculates the adjacency between two rectangles if any exist",
-	Long: ``,
+	Long:  ``,
 	Run: func(cmd *cobra.Command, args []string) {
 		recA := parseCoords(rectangleA)
 		recA.Describe()

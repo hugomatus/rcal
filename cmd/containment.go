@@ -24,7 +24,7 @@ import (
 var containmentCmd = &cobra.Command{
 	Use:   "containment",
 	Short: "calculates containment between two rectangles if any exist",
-	Long: ``,
+	Long:  ``,
 	Run: func(cmd *cobra.Command, args []string) {
 		recA := parseCoords(rectangleA)
 		recA.Describe()
@@ -36,7 +36,6 @@ var containmentCmd = &cobra.Command{
 
 func init() {
 	rootCmd.AddCommand(containmentCmd)
-
 
 	flags := containmentCmd.Flags()
 	flags.StringVarP(&rectangleA, "rectangleA", "a", "", "rectangle A coords")

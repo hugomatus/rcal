@@ -20,7 +20,6 @@ import (
 	"github.com/spf13/cobra"
 )
 
-
 // intersectionCmd represents the intersection command
 var intersectionCmd = &cobra.Command{
 	Use:   "intersection",
