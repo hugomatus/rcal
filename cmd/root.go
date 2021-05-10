@@ -19,12 +19,19 @@ import (
 	"fmt"
 	"github.com/spf13/cobra"
 	"os"
+	"rcal/rectangle"
+	"strconv"
+	"strings"
 
 	homedir "github.com/mitchellh/go-homedir"
 	"github.com/spf13/viper"
 )
 
 var cfgFile string
+
+var rectangleA string
+
+var rectangleB string
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
@@ -77,4 +84,32 @@ func initConfig() {
 	if err := viper.ReadInConfig(); err == nil {
 		fmt.Fprintln(os.Stderr, "Using config file:", viper.ConfigFileUsed())
 	}
+}
+
+
+// parseCoords
+func parseCoords(coords string) *rectangle.Rectangle {
+
+	tmp_ := strings.Split(coords, ",")
+
+	coordsAsInt := []int{}
+	var result []rectangle.Point
+
+	for _, v := range tmp_ {
+
+		val, _ := strconv.Atoi(v)
+		coordsAsInt = append(coordsAsInt, val)
+	}
+
+	result = append(result, rectangle.Point{
+		X: coordsAsInt[0],
+		Y: coordsAsInt[1],
+	}, rectangle.Point{
+		X: coordsAsInt[2],
+		Y: coordsAsInt[3],
+	})
+
+	rec := rectangle.New(result[0], result[1])
+
+	return rec
 }

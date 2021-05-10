@@ -13,34 +13,30 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 */
-
 package cmd
 
 import (
 	"github.com/spf13/cobra"
 )
 
-
-// intersectionCmd represents the intersection command
-var intersectionCmd = &cobra.Command{
-	Use:   "intersection",
-	Short: "calculates the intersection between two rectangles if any exist",
-	Long:  ``,
+// adjacencyCmd represents the adjacency command
+var adjacencyCmd = &cobra.Command{
+	Use:   "adjacency",
+	Short: "calculates the adjacency between two rectangles if any exist",
+	Long: ``,
 	Run: func(cmd *cobra.Command, args []string) {
-
 		recA := parseCoords(rectangleA)
 		recA.Describe()
 
 		recB := parseCoords(rectangleB)
 		recB.Describe()
-
 	},
 }
 
 func init() {
-	rootCmd.AddCommand(intersectionCmd)
+	rootCmd.AddCommand(adjacencyCmd)
 
-	flags := intersectionCmd.Flags()
+	flags := adjacencyCmd.Flags()
 	flags.StringVarP(&rectangleA, "rectangleA", "a", "", "rectangle A coords")
 	_ = intersectionCmd.MarkFlagRequired("rectangleA")
 

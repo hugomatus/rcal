@@ -20,30 +20,29 @@ import (
 	"github.com/spf13/cobra"
 )
 
-
-// intersectionCmd represents the intersection command
-var intersectionCmd = &cobra.Command{
-	Use:   "intersection",
-	Short: "calculates the intersection between two rectangles if any exist",
-	Long:  ``,
+// containmentCmd represents the containment command
+var containmentCmd = &cobra.Command{
+	Use:   "containment",
+	Short: "calculates containment between two rectangles if any exist",
+	Long: ``,
 	Run: func(cmd *cobra.Command, args []string) {
-
 		recA := parseCoords(rectangleA)
 		recA.Describe()
 
 		recB := parseCoords(rectangleB)
 		recB.Describe()
-
 	},
 }
 
 func init() {
-	rootCmd.AddCommand(intersectionCmd)
+	rootCmd.AddCommand(containmentCmd)
 
-	flags := intersectionCmd.Flags()
+
+	flags := containmentCmd.Flags()
 	flags.StringVarP(&rectangleA, "rectangleA", "a", "", "rectangle A coords")
 	_ = intersectionCmd.MarkFlagRequired("rectangleA")
 
 	flags.StringVarP(&rectangleB, "rectangleB", "b", "", "rectangle B coords")
 	_ = intersectionCmd.MarkFlagRequired("rectangleB")
+
 }
