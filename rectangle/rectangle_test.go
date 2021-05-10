@@ -16,11 +16,11 @@ func TestNew(t *testing.T) {
 	got := []Point{r1.TopLeft, r1.BottomRight}
 
 	want := []Point{{
-		X: 4,
-		Y: 14,
-	}, {
 		X: 12,
 		Y: 10,
+	},{
+		X: 4,
+		Y: 14,
 	}}
 
 	if !assert.Equal(t, want, got) {
@@ -47,4 +47,10 @@ func TestLoad(t *testing.T) {
 	if len(rectangles) != 2 {
 		t.Fail()
 	}
+}
+
+
+func TestLoadFigure(t *testing.T) {
+
+	LoadFigure(1)
 }

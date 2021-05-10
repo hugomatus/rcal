@@ -69,7 +69,7 @@ func (r Rectangle) isValid() bool {
 }
 
 // New create and returns a pointer to a Rectangle
-func New(TopRight Point, BottomLeft Point) *Rectangle {
+func New(BottomLeft Point, TopRight Point) *Rectangle {
 	r := new(Rectangle)
 	r.TopLeft = Point{
 		X: BottomLeft.X,
@@ -150,7 +150,7 @@ func Load(file *os.File) ([]Rectangle, error) {
 //LoadFigure loads rectangle diagram from file
 func LoadFigure(figure int) error {
 
-	fig := "figures/fig" + strconv.Itoa(figure) + ".txt"
+	fig := "rectangle/figures/fig" + strconv.Itoa(figure) + ".txt"
 	file, err := os.Open(fig)
 
 	if err != nil {

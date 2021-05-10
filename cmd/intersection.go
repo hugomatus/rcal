@@ -17,6 +17,7 @@ limitations under the License.
 package cmd
 
 import (
+	"fmt"
 	"github.com/spf13/cobra"
 )
 
@@ -33,6 +34,12 @@ var intersectionCmd = &cobra.Command{
 		recB := parseCoords(rectangleB)
 		recB.Describe()
 
+		points := recA.Intersection(*recB)
+
+		for k,v := range points {
+			fmt.Printf("Points of Intersection in Block No. %d : %v \n",k,v)
+
+		}
 	},
 }
 

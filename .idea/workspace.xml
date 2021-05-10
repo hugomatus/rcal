@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4734a4be-55dc-427b-b25e-dabc07412d80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/rectangle/location_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rectangle/usecases/usecases.JPG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/intersection.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/intersection.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rcal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rectangle/figures/fig1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/figures/fig1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rectangle/rectangle.go" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/rectangle.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rectangle/rectangle_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/rectangle_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +65,19 @@
       <recent name="$PROJECT_DIR$/rectangle/test_data" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Test.go test rcal/rectangle">
+    <configuration name="TestLoadFigure in rcal/rectangle" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="rcal" />
+      <working_directory value="$PROJECT_DIR$/rectangle" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="rcal/rectangle" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestLoadFigure\E$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go test rcal/rectangle" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="rcal" />
       <working_directory value="$PROJECT_DIR$/rectangle" />
@@ -79,6 +92,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Go Test.go test rcal/rectangle" />
+        <item itemvalue="Go Test.TestLoadFigure in rcal/rectangle" />
       </list>
     </recent_temporary>
   </component>
