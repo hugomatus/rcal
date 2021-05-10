@@ -77,6 +77,5 @@ func parseCoords(coords string) *rectangle.Rectangle {
 
 	rec := rectangle.New(result[0], result[1])
 
-
 	return rec
 }
