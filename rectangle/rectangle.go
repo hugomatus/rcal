@@ -200,3 +200,27 @@ func (r1 Rectangle) yIntersect(r2 Rectangle) bool {
 
 	return r1.yMin() < r2.yMax() && r1.yMax() > r2.yMin()
 }
+
+/*
++---------------+
+|R1  +------+   |
+|	 |	R2 	|	|
+|	 +------+	|
++---------------+
+*/
+
+// Containment determines if Rectangle R1 contains Rectangle r2
+func (r1 Rectangle) Containment(r2 Rectangle) bool {
+
+	if len(r1.Intersection(r2)) == 0 {
+		if r2.xMin() > r1.xMin() && r2.xMax() < r1.xMax() {
+			if r2.yMax() < r1.yMax() {
+				if r2.yMin() > r1.yMin() {
+					LoadFigure(15)
+					return true
+				}
+			}
+		}
+	}
+	return false
+}

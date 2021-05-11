@@ -53,3 +53,81 @@ func TestLoadFigure(t *testing.T) {
 
 	LoadFigure(1)
 }
+
+func TestRectangle_Containment_1(t *testing.T) {
+
+	file, err := os.Open("test_data/rectangle_data_1.json")
+
+	if err != nil {
+		t.Fail()
+	}
+
+	rectangles, err := Load(file)
+
+	got := rectangles[0].Containment(rectangles[1])
+
+	want := false
+
+	if !assert.Equal(t, want, got) {
+		t.Fail()
+	}
+
+}
+
+func TestRectangle_Containment_2(t *testing.T) {
+
+	file, err := os.Open("test_data/rectangle_data_2.json")
+
+	if err != nil {
+		t.Fail()
+	}
+
+	rectangles, err := Load(file)
+
+	got := rectangles[0].Containment(rectangles[1])
+
+	want := false
+
+	if !assert.Equal(t, want, got) {
+		t.Fail()
+	}
+
+}
+
+func TestRectangle_Containment_4(t *testing.T) {
+
+	file, err := os.Open("test_data/rectangle_data_4.json")
+
+	if err != nil {
+		t.Fail()
+	}
+
+	rectangles, err := Load(file)
+
+	got := rectangles[0].Containment(rectangles[1])
+
+	want := false
+
+	if !assert.Equal(t, want, got) {
+		t.Fail()
+	}
+
+}
+func TestRectangle_Containment_15(t *testing.T) {
+
+	file, err := os.Open("test_data/rectangle_data_15.json")
+
+	if err != nil {
+		t.Fail()
+	}
+
+	rectangles, err := Load(file)
+
+	got := rectangles[0].Containment(rectangles[1])
+
+	want := true
+
+	if !assert.Equal(t, want, got) {
+		t.Fail()
+	}
+}

@@ -31,6 +31,8 @@ var containmentCmd = &cobra.Command{
 
 		recB := parseCoords(rectangleB)
 		recB.Describe()
+
+		recA.Containment(*recB)
 	},
 }
 
