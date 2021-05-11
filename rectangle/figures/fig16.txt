@@ -1,4 +1,4 @@
-Adjacency (Proper)
++---------- Adjacency (Proper) ------------+
 +--------+----------+
 |R1      |    R2    |
 |	     |          |

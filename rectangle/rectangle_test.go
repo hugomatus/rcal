@@ -1,7 +1,6 @@
 package rectangle
 
 import (
-	"fmt"
 	"github.com/stretchr/testify/assert"
 	"os"
 	"testing"
@@ -141,12 +140,12 @@ func TestRectangle_Adjacency_18(t *testing.T) {
 	}
 
 	rectangles, err := Load(file)
-	fmt.Println(rectangles[0].Containment(rectangles[1]))
-	fmt.Println(rectangles[0].Intersection(rectangles[1]))
 
-	got := rectangles[0].Adjacency(rectangles[1])
+	adjacencyType := rectangles[0].Adjacency(rectangles[1])
 
-	want := true
+	got := adjacencyType
+
+	want := Proper
 
 	if !assert.Equal(t, want, got) {
 		t.Fail()
@@ -162,9 +161,11 @@ func TestRectangle_Adjacency_19(t *testing.T) {
 
 	rectangles, err := Load(file)
 
-	got := rectangles[1].Adjacency(rectangles[0])
+	adjacencyType := rectangles[1].Adjacency(rectangles[0])
 
-	want := true
+	got := adjacencyType
+
+	want:= Proper
 
 	if !assert.Equal(t, want, got) {
 		t.Fail()
@@ -180,9 +181,11 @@ func TestRectangle_Adjacency_20(t *testing.T) {
 
 	rectangles, err := Load(file)
 
-	got := rectangles[0].Adjacency(rectangles[1])
+	adjacencyType := rectangles[0].Adjacency(rectangles[1])
 
-	want := true
+	got := adjacencyType
+
+	want:= Partial
 
 	if !assert.Equal(t, want, got) {
 		t.Fail()
@@ -198,9 +201,11 @@ func TestRectangle_Adjacency_21(t *testing.T) {
 
 	rectangles, err := Load(file)
 
-	got := rectangles[0].Adjacency(rectangles[1])
+	adjacencyType := rectangles[0].Adjacency(rectangles[1])
 
-	want := true
+	got := adjacencyType
+
+	want:= Partial
 
 	if !assert.Equal(t, want, got) {
 		t.Fail()
@@ -216,9 +221,11 @@ func TestRectangle_Adjacency_22(t *testing.T) {
 
 	rectangles, err := Load(file)
 
-	got := rectangles[0].Adjacency(rectangles[1])
+	adjacencyType := rectangles[0].Adjacency(rectangles[1])
 
-	want := true
+	got := adjacencyType
+
+	want:= Partial
 
 	if !assert.Equal(t, want, got) {
 		t.Fail()
@@ -234,9 +241,11 @@ func TestRectangle_Adjacency_23(t *testing.T) {
 
 	rectangles, err := Load(file)
 
-	got := rectangles[0].Adjacency(rectangles[1])
+	adjacencyType := rectangles[0].Adjacency(rectangles[1])
 
-	want := true
+	got := adjacencyType
+
+	want:= Partial
 
 	if !assert.Equal(t, want, got) {
 		t.Fail()

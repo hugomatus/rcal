@@ -13,3 +13,15 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+.idea
+.classpath
+.editorconfig
+.factorypath
+.gitattributes
+.idea/codeStyles/
+.idea/inspectionProfiles/
+.idea/modifysf.iml
+.idea/modules.xml
+.idea/typescript-compiler.xml
+.idea/workspace.xml

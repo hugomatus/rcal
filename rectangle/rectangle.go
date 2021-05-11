@@ -6,7 +6,6 @@ import (
 	"fmt"
 	"io/ioutil"
 	"os"
-	"strconv"
 	"text/tabwriter"
 )
 
@@ -150,7 +149,7 @@ func Load(file *os.File) ([]Rectangle, error) {
 //LoadFigure loads rectangle diagram from file
 func LoadFigure(figure int) error {
 
-	fig := "rectangle/figures/fig" + strconv.Itoa(figure) + ".txt"
+	/*fig := "rectangle/figures/fig" + strconv.Itoa(figure) + ".txt"
 	file, err := os.Open(fig)
 
 	if err != nil {
@@ -164,7 +163,7 @@ func LoadFigure(figure int) error {
 		fmt.Println(err)
 		return err
 	}
-	fmt.Printf("\n+--------Reference--------+\n%v \n", string(data))
+	fmt.Printf("\n+--------Reference--------+\n%v \n", string(data))*/
 
 	return nil
 }
@@ -229,7 +228,8 @@ func (r1 Rectangle) Containment(r2 Rectangle) bool {
 
 // Adjacency determines if Rectangle R1 and R2 are adjacent either
 // Proper, Partial or sub-line
-func (r1 Rectangle) Adjacency(r2 Rectangle) bool {
+func (r1 Rectangle) Adjacency(r2 Rectangle) Adjacency {
 
-	return r1.isAdjacent(r2)
+	_, adjacencyType := r1.isAdjacent(r2)
+	return adjacencyType
 }

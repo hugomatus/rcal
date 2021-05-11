@@ -16,6 +16,7 @@ limitations under the License.
 package cmd
 
 import (
+	"fmt"
 	"github.com/spf13/cobra"
 )
 
@@ -31,7 +32,9 @@ var adjacencyCmd = &cobra.Command{
 		recB := parseCoords(rectangleB)
 		recB.Describe()
 
-		recA.Adjacency(*recB)
+		adjacencyType := recA.Adjacency(*recB)
+
+		fmt.Printf("\n\n*** Adjacency between Rectangle A and Rectangle B : %v ***\n\n",adjacencyType)
 	},
 }
 

@@ -29,16 +29,29 @@ var intersectionCmd = &cobra.Command{
 	Run: func(cmd *cobra.Command, args []string) {
 
 		recA := parseCoords(rectangleA)
-		recA.Describe()
+
+		if recA == nil  {
+			return
+		}
 
 		recB := parseCoords(rectangleB)
+
+		if recB == nil  {
+			return
+		}
+
+
+		recA.Describe()
 		recB.Describe()
 
 		points := recA.Intersection(*recB)
 
-		for k, v := range points {
-			fmt.Printf("Points of Intersection in Block No. %d : %v \n", k, v)
+	   if points == nil {
+			fmt.Printf("\n\n*** Intersection between Rectangle A and Rectanle b: None Identified ***\n\n" )
+		}
 
+		for k, v := range points {
+			fmt.Printf("\n\n*** Intersection between Rectangle A and Rectanle b ***\n\tIntersection in Block No. %d : %v\n\n", k, v)
 		}
 	},
 }
@@ -47,9 +60,9 @@ func init() {
 	rootCmd.AddCommand(intersectionCmd)
 
 	flags := intersectionCmd.Flags()
-	flags.StringVarP(&rectangleA, "rectangleA", "a", "", "rectangle A coords")
+	flags.StringVarP(&rectangleA, "rectangleA", "a", "", "rectangle A coords BottomLeft (x,y) and Top Right (x,y) as -a 6,4,14,10 -b  4,2,7,6")
 	_ = intersectionCmd.MarkFlagRequired("rectangleA")
 
-	flags.StringVarP(&rectangleB, "rectangleB", "b", "", "rectangle B coords")
+	flags.StringVarP(&rectangleB, "rectangleB", "b", "", "rectangle B coords BottomLeft (x,y) and Top Right (x,y) as -a 6,4,14,10 -b  4,2,7,6")
 	_ = intersectionCmd.MarkFlagRequired("rectangleB")
 }

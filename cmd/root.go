@@ -17,9 +17,9 @@ package cmd
 
 import (
 	"fmt"
+	"github.com/hugomatus/rcal/rectangle"
 	"github.com/spf13/cobra"
 	"os"
-	"rcal/rectangle"
 	"strconv"
 	"strings"
 
@@ -91,7 +91,13 @@ func parseCoords(coords string) *rectangle.Rectangle {
 
 	tmp_ := strings.Split(coords, ",")
 
-	coordsAsInt := []int{}
+	if len(tmp_) != 4 {
+		fmt.Println("Coordinates for Rectangle A and B are required \ni.e. BottomLeft (x,y) and Top Right (x,y) as -a 6,4,14,10 -b  4,2,7,6")
+
+		return nil
+	}
+
+	var coordsAsInt []int
 	var result []rectangle.Point
 
 	for _, v := range tmp_ {

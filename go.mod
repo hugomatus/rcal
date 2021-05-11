@@ -1,4 +1,4 @@
-module rcal
+module github.com/hugomatus/rcal
 
 go 1.13
 

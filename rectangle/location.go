@@ -1,7 +1,6 @@
 package rectangle
 
 import (
-	"fmt"
 	"math"
 )
 
@@ -40,7 +39,7 @@ func (r1 Rectangle) doLocate(r2 Rectangle) PointsOfIntersection {
 
 	for location, f := range blockOfLocation {
 		location += 1
-		fmt.Printf("scanning for intersection(s) @ block: %v\n", location)
+		//fmt.Printf("scanning for intersection(s) @ block: %v\n", location)
 
 		tmp_ := f(r1, r2)
 

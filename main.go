@@ -15,7 +15,7 @@ limitations under the License.
 */
 package main
 
-import "rcal/cmd"
+import "github.com/hugomatus/rcal/cmd"
 
 func main() {
 	cmd.Execute()

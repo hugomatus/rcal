@@ -1,4 +1,4 @@
-Adjacency (Partial)
++---------- Adjacency (Partial) ------------+
 +-------+
 | R1    |
 |       |

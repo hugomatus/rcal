@@ -17,6 +17,7 @@ limitations under the License.
 package cmd
 
 import (
+	"fmt"
 	"github.com/spf13/cobra"
 )
 
@@ -26,13 +27,27 @@ var containmentCmd = &cobra.Command{
 	Short: "calculates containment between two rectangles.",
 	Long:  ``,
 	Run: func(cmd *cobra.Command, args []string) {
+
 		recA := parseCoords(rectangleA)
-		recA.Describe()
+
+		if recA == nil  {
+			return
+		}
 
 		recB := parseCoords(rectangleB)
+
+		if recB == nil  {
+			return
+		}
+
+		recA.Describe()
 		recB.Describe()
 
-		recA.Containment(*recB)
+		if recA.Containment(*recB) {
+			fmt.Printf("\n\n*** Containment between Rectangle A and Rectangle B: Found ***\n\n" )
+		} else {
+			fmt.Printf("\n\n*** Containment between Rectangle A and Rectangle B: NOT Found ***\n\n" )
+		}
 	},
 }
 
@@ -40,10 +55,10 @@ func init() {
 	rootCmd.AddCommand(containmentCmd)
 
 	flags := containmentCmd.Flags()
-	flags.StringVarP(&rectangleA, "rectangleA", "a", "", "rectangle A coords")
+	flags.StringVarP(&rectangleA, "rectangleA", "a", "", "rectangle A coords BottomLeft (x,y) and Top Right (x,y) as -a 6,4,14,10 -b  4,2,7,6")
 	_ = intersectionCmd.MarkFlagRequired("rectangleA")
 
-	flags.StringVarP(&rectangleB, "rectangleB", "b", "", "rectangle B coords")
+	flags.StringVarP(&rectangleB, "rectangleB", "b", "", "rectangle B coords BottomLeft (x,y) and Top Right (x,y) as -a 6,4,14,10 -b  4,2,7,6")
 	_ = intersectionCmd.MarkFlagRequired("rectangleB")
 
 }
