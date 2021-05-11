@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4734a4be-55dc-427b-b25e-dabc07412d80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/rectangle/adjacency.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/adjacency.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/adjacency.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/containment.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/containment.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/intersection.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/intersection.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/root.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/root.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rectangle/figures/fig22.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/figures/fig22.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rectangle/figures/fig23.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/figures/fig23.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rectangle/rectangle.go" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/rectangle.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +54,7 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/rectangle/usecases" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -60,8 +69,8 @@
       <recent name="$PROJECT_DIR$/rectangle/test_data" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestRectangle_Containment_15 in rcal/rectangle">
-    <configuration name="TestLoadFigure in rcal/rectangle" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.go test rcal/rectangle">
+    <configuration name="TestRectangle_Adjacency_18 in rcal/rectangle" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="rcal" />
       <working_directory value="$PROJECT_DIR$/rectangle" />
       <root_directory value="$PROJECT_DIR$" />
@@ -70,10 +79,10 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestLoadFigure\E$" />
+      <pattern value="^\QTestRectangle_Adjacency_18\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestLocation_4 in rcal/rectangle" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRectangle_Adjacency_22 in rcal/rectangle" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="rcal" />
       <working_directory value="$PROJECT_DIR$/rectangle" />
       <root_directory value="$PROJECT_DIR$" />
@@ -82,7 +91,19 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestLocation_4\E$" />
+      <pattern value="^\QTestRectangle_Adjacency_22\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestRectangle_Adjacency_23 in rcal/rectangle" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="rcal" />
+      <working_directory value="$PROJECT_DIR$/rectangle" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="rcal/rectangle" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestRectangle_Adjacency_23\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestRectangle_Containment_15 in rcal/rectangle" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -110,10 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestRectangle_Containment_15 in rcal/rectangle" />
         <item itemvalue="Go Test.go test rcal/rectangle" />
-        <item itemvalue="Go Test.TestLocation_4 in rcal/rectangle" />
-        <item itemvalue="Go Test.TestLoadFigure in rcal/rectangle" />
+        <item itemvalue="Go Test.TestRectangle_Adjacency_22 in rcal/rectangle" />
+        <item itemvalue="Go Test.TestRectangle_Adjacency_23 in rcal/rectangle" />
+        <item itemvalue="Go Test.TestRectangle_Adjacency_18 in rcal/rectangle" />
+        <item itemvalue="Go Test.TestRectangle_Containment_15 in rcal/rectangle" />
       </list>
     </recent_temporary>
   </component>

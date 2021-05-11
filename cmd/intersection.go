@@ -24,7 +24,7 @@ import (
 // intersectionCmd represents the intersection command
 var intersectionCmd = &cobra.Command{
 	Use:   "intersection",
-	Short: "calculates the intersection between two rectangles if any exist",
+	Short: "calculates the intersection between two rectangles.",
 	Long:  ``,
 	Run: func(cmd *cobra.Command, args []string) {
 

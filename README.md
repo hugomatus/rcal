@@ -56,14 +56,26 @@ $ rcal containment -a 6,4,14,10 -b 7,6,11,8
 ### Adjacency
 
 ```text
-rcal adjacency -a 4,2,7,6 -b 6,4,14,10
+$  rcal adjacency -a 6,4,14,10 -b 8,10,16,4
 
  TopLeft        TopRight        BottomLeft      BottomRight     xMin    xMax    yMin    yMax    
  --------       --------        --------        --------        --------------------------------
- {7 2}          {4 2}           {7 6}           {4 6}           7       4       6       2       
+ {6 10}         {14 10}         {6 4}           {14 4}          6       14      4       10      
 
  TopLeft        TopRight        BottomLeft      BottomRight     xMin    xMax    yMin    yMax    
  --------       --------        --------        --------        --------------------------------
- {14 4}         {6 4}           {14 10}         {6 10}          14      6       10      4 
+ {8 4}          {16 4}          {8 10}          {16 10}         8       16      10      4       
+
++--------Reference--------+
+Adjacency (Partial)
++-------+
+| R1    |
+|       |
+|       |
++----+-------+
+     | R2    |
+     |       |
+     |       |
+     +-------+ 
 ```
 

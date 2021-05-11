@@ -150,7 +150,7 @@ func Load(file *os.File) ([]Rectangle, error) {
 //LoadFigure loads rectangle diagram from file
 func LoadFigure(figure int) error {
 
-	fig := "figures/fig" + strconv.Itoa(figure) + ".txt"
+	fig := "rectangle/figures/fig" + strconv.Itoa(figure) + ".txt"
 	file, err := os.Open(fig)
 
 	if err != nil {
