@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"os"
+	"strconv"
 	"text/tabwriter"
 )
 
@@ -149,7 +150,7 @@ func Load(file *os.File) ([]Rectangle, error) {
 //LoadFigure loads rectangle diagram from file
 func LoadFigure(figure int) error {
 
-	/*fig := "rectangle/figures/fig" + strconv.Itoa(figure) + ".txt"
+	fig := "figures/fig" + strconv.Itoa(figure) + ".txt"
 	file, err := os.Open(fig)
 
 	if err != nil {
@@ -163,7 +164,7 @@ func LoadFigure(figure int) error {
 		fmt.Println(err)
 		return err
 	}
-	fmt.Printf("\n+--------Reference--------+\n%v \n", string(data))*/
+	fmt.Printf("\n+--------Reference--------+\n%v \n", string(data))
 
 	return nil
 }

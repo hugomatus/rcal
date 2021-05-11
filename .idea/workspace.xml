@@ -59,43 +59,7 @@
       <recent name="$PROJECT_DIR$/rectangle" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestRectangle_Adjacency_27 in github.com/hugomatus/rcal/rectangle">
-    <configuration name="TestRectangle_Adjacency_23 in github.com/hugomatus/rcal/rectangle" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="rcal" />
-      <working_directory value="$PROJECT_DIR$/rectangle" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/hugomatus/rcal/rectangle" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestRectangle_Adjacency_23\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestRectangle_Adjacency_24 in github.com/hugomatus/rcal/rectangle" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="rcal" />
-      <working_directory value="$PROJECT_DIR$/rectangle" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/hugomatus/rcal/rectangle" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestRectangle_Adjacency_24\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestRectangle_Adjacency_25 in github.com/hugomatus/rcal/rectangle" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="rcal" />
-      <working_directory value="$PROJECT_DIR$/rectangle" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/hugomatus/rcal/rectangle" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestRectangle_Adjacency_25\E$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.go test github.com/hugomatus/rcal/rectangle">
     <configuration name="TestRectangle_Adjacency_26 in github.com/hugomatus/rcal/rectangle" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="rcal" />
       <working_directory value="$PROJECT_DIR$/rectangle" />
@@ -120,13 +84,48 @@
       <pattern value="^\QTestRectangle_Adjacency_27\E$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestRectangle_Adjacency_28 in github.com/hugomatus/rcal/rectangle" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="rcal" />
+      <working_directory value="$PROJECT_DIR$/rectangle" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/hugomatus/rcal/rectangle" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestRectangle_Adjacency_28\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestRectangle_Adjacency_29 in github.com/hugomatus/rcal/rectangle" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="rcal" />
+      <working_directory value="$PROJECT_DIR$/rectangle" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/hugomatus/rcal/rectangle" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestRectangle_Adjacency_29\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test github.com/hugomatus/rcal/rectangle" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="rcal" />
+      <working_directory value="$PROJECT_DIR$/rectangle" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/hugomatus/rcal/rectangle" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.go test github.com/hugomatus/rcal/rectangle" />
+        <item itemvalue="Go Test.TestRectangle_Adjacency_29 in github.com/hugomatus/rcal/rectangle" />
+        <item itemvalue="Go Test.TestRectangle_Adjacency_28 in github.com/hugomatus/rcal/rectangle" />
         <item itemvalue="Go Test.TestRectangle_Adjacency_27 in github.com/hugomatus/rcal/rectangle" />
         <item itemvalue="Go Test.TestRectangle_Adjacency_26 in github.com/hugomatus/rcal/rectangle" />
-        <item itemvalue="Go Test.TestRectangle_Adjacency_24 in github.com/hugomatus/rcal/rectangle" />
-        <item itemvalue="Go Test.TestRectangle_Adjacency_25 in github.com/hugomatus/rcal/rectangle" />
-        <item itemvalue="Go Test.TestRectangle_Adjacency_23 in github.com/hugomatus/rcal/rectangle" />
       </list>
     </recent_temporary>
   </component>

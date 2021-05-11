@@ -165,7 +165,7 @@ func TestRectangle_Adjacency_19(t *testing.T) {
 
 	got := adjacencyType
 
-	want:= Proper
+	want := Proper
 
 	if !assert.Equal(t, want, got) {
 		t.Fail()
@@ -185,7 +185,7 @@ func TestRectangle_Adjacency_20(t *testing.T) {
 
 	got := adjacencyType
 
-	want:= Partial
+	want := Partial
 
 	if !assert.Equal(t, want, got) {
 		t.Fail()
@@ -205,7 +205,7 @@ func TestRectangle_Adjacency_21(t *testing.T) {
 
 	got := adjacencyType
 
-	want:= Partial
+	want := Partial
 
 	if !assert.Equal(t, want, got) {
 		t.Fail()
@@ -225,7 +225,7 @@ func TestRectangle_Adjacency_22(t *testing.T) {
 
 	got := adjacencyType
 
-	want:= Partial
+	want := Partial
 
 	if !assert.Equal(t, want, got) {
 		t.Fail()
@@ -245,7 +245,7 @@ func TestRectangle_Adjacency_23(t *testing.T) {
 
 	got := adjacencyType
 
-	want:= Partial
+	want := Partial
 
 	if !assert.Equal(t, want, got) {
 		t.Fail()
@@ -265,7 +265,7 @@ func TestRectangle_Adjacency_24(t *testing.T) {
 
 	got := adjacencyType
 
-	want:= SubLine
+	want := SubLine
 
 	if !assert.Equal(t, want, got) {
 		t.Fail()
@@ -285,7 +285,7 @@ func TestRectangle_Adjacency_25(t *testing.T) {
 
 	got := adjacencyType
 
-	want:= SubLine
+	want := SubLine
 
 	if !assert.Equal(t, want, got) {
 		t.Fail()
@@ -305,7 +305,7 @@ func TestRectangle_Adjacency_26(t *testing.T) {
 
 	got := adjacencyType
 
-	want:= SubLine
+	want := SubLine
 
 	if !assert.Equal(t, want, got) {
 		t.Fail()
@@ -325,7 +325,7 @@ func TestRectangle_Adjacency_27(t *testing.T) {
 
 	got := adjacencyType
 
-	want:= SubLine
+	want := SubLine
 
 	if !assert.Equal(t, want, got) {
 		t.Fail()
@@ -345,7 +345,7 @@ func TestRectangle_Adjacency_28(t *testing.T) {
 
 	got := adjacencyType
 
-	want:= NoAjacency
+	want := NoAjacency
 
 	if !assert.Equal(t, want, got) {
 		t.Fail()
@@ -365,7 +365,7 @@ func TestRectangle_Adjacency_29(t *testing.T) {
 
 	got := adjacencyType
 
-	want:= NoAjacency
+	want := NoAjacency
 
 	if !assert.Equal(t, want, got) {
 		t.Fail()

@@ -30,24 +30,23 @@ var intersectionCmd = &cobra.Command{
 
 		recA := parseCoords(rectangleA)
 
-		if recA == nil  {
+		if recA == nil {
 			return
 		}
 
 		recB := parseCoords(rectangleB)
 
-		if recB == nil  {
+		if recB == nil {
 			return
 		}
-
 
 		recA.Describe()
 		recB.Describe()
 
 		points := recA.Intersection(*recB)
 
-	   if points == nil {
-			fmt.Printf("\n\n*** Intersection between Rectangle A and Rectanle b: None Identified ***\n\n" )
+		if points == nil {
+			fmt.Printf("\n\n*** Intersection between Rectangle A and Rectanle b: None Identified ***\n\n")
 		}
 
 		for k, v := range points {

@@ -30,13 +30,13 @@ var containmentCmd = &cobra.Command{
 
 		recA := parseCoords(rectangleA)
 
-		if recA == nil  {
+		if recA == nil {
 			return
 		}
 
 		recB := parseCoords(rectangleB)
 
-		if recB == nil  {
+		if recB == nil {
 			return
 		}
 
@@ -44,9 +44,9 @@ var containmentCmd = &cobra.Command{
 		recB.Describe()
 
 		if recA.Containment(*recB) {
-			fmt.Printf("\n\n*** Containment between Rectangle A and Rectangle B: Found ***\n\n" )
+			fmt.Printf("\n\n*** Containment between Rectangle A and Rectangle B: Found ***\n\n")
 		} else {
-			fmt.Printf("\n\n*** Containment between Rectangle A and Rectangle B: NOT Found ***\n\n" )
+			fmt.Printf("\n\n*** Containment between Rectangle A and Rectangle B: NOT Found ***\n\n")
 		}
 	},
 }

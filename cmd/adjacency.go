@@ -34,7 +34,7 @@ var adjacencyCmd = &cobra.Command{
 
 		adjacencyType := recA.Adjacency(*recB)
 
-		fmt.Printf("\n\n*** Adjacency between Rectangle A and Rectangle B : %v ***\n\n",adjacencyType)
+		fmt.Printf("\n\n*** Adjacency between Rectangle A and Rectangle B : %v ***\n\n", adjacencyType)
 	},
 }
 
