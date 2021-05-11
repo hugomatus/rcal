@@ -1,6 +1,7 @@
 package rectangle
 
 import (
+	"fmt"
 	"github.com/stretchr/testify/assert"
 	"os"
 	"testing"
@@ -124,6 +125,116 @@ func TestRectangle_Containment_15(t *testing.T) {
 	rectangles, err := Load(file)
 
 	got := rectangles[0].Containment(rectangles[1])
+
+	want := true
+
+	if !assert.Equal(t, want, got) {
+		t.Fail()
+	}
+}
+
+func TestRectangle_Adjacency_18(t *testing.T) {
+	file, err := os.Open("test_data/rectangle_data_18.json")
+
+	if err != nil {
+		t.Fail()
+	}
+
+	rectangles, err := Load(file)
+	fmt.Println(rectangles[0].Containment(rectangles[1]))
+	fmt.Println(rectangles[0].Intersection(rectangles[1]))
+
+	got := rectangles[0].Adjacency(rectangles[1])
+
+	want := true
+
+	if !assert.Equal(t, want, got) {
+		t.Fail()
+	}
+}
+
+func TestRectangle_Adjacency_19(t *testing.T) {
+	file, err := os.Open("test_data/rectangle_data_18.json")
+
+	if err != nil {
+		t.Fail()
+	}
+
+	rectangles, err := Load(file)
+
+	got := rectangles[1].Adjacency(rectangles[0])
+
+	want := true
+
+	if !assert.Equal(t, want, got) {
+		t.Fail()
+	}
+}
+
+func TestRectangle_Adjacency_20(t *testing.T) {
+	file, err := os.Open("test_data/rectangle_data_20.json")
+
+	if err != nil {
+		t.Fail()
+	}
+
+	rectangles, err := Load(file)
+
+	got := rectangles[0].Adjacency(rectangles[1])
+
+	want := true
+
+	if !assert.Equal(t, want, got) {
+		t.Fail()
+	}
+}
+
+func TestRectangle_Adjacency_21(t *testing.T) {
+	file, err := os.Open("test_data/rectangle_data_21.json")
+
+	if err != nil {
+		t.Fail()
+	}
+
+	rectangles, err := Load(file)
+
+	got := rectangles[0].Adjacency(rectangles[1])
+
+	want := true
+
+	if !assert.Equal(t, want, got) {
+		t.Fail()
+	}
+}
+
+func TestRectangle_Adjacency_22(t *testing.T) {
+	file, err := os.Open("test_data/rectangle_data_22.json")
+
+	if err != nil {
+		t.Fail()
+	}
+
+	rectangles, err := Load(file)
+
+	got := rectangles[0].Adjacency(rectangles[1])
+
+	want := true
+
+	if !assert.Equal(t, want, got) {
+		t.Fail()
+	}
+}
+
+func TestRectangle_Adjacency_23(t *testing.T) {
+	file, err := os.Open("test_data/rectangle_data_23.json")
+
+	if err != nil {
+		t.Fail()
+	}
+
+	rectangles, err := Load(file)
+
+	got := rectangles[0].Adjacency(rectangles[1])
 
 	want := true
 

@@ -150,16 +150,18 @@ func Load(file *os.File) ([]Rectangle, error) {
 //LoadFigure loads rectangle diagram from file
 func LoadFigure(figure int) error {
 
-	fig := "rectangle/figures/fig" + strconv.Itoa(figure) + ".txt"
+	fig := "figures/fig" + strconv.Itoa(figure) + ".txt"
 	file, err := os.Open(fig)
 
 	if err != nil {
+		fmt.Println(err)
 		return err
 	}
 
 	data, _ := ioutil.ReadAll(file)
 
 	if err != nil {
+		fmt.Println(err)
 		return err
 	}
 	fmt.Printf("\n+--------Reference--------+\n%v \n", string(data))
@@ -223,4 +225,11 @@ func (r1 Rectangle) Containment(r2 Rectangle) bool {
 		}
 	}
 	return false
+}
+
+// Adjacency determines if Rectangle R1 and R2 are adjacent either
+// Proper, Partial or sub-line
+func (r1 Rectangle) Adjacency(r2 Rectangle) bool {
+
+	return r1.isAdjacent(r2)
 }
