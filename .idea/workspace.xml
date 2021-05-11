@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d465754b-999a-4654-9bca-f7d20f11c74b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/rectangle/test_data/rectangle_data_24.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rectangle/test_data/rectangle_data_25.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rectangle/test_data/rectangle_data_26.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rectangle/test_data/rectangle_data_27.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rectangle/adjacency.go" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/adjacency.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rectangle/rectangle_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/rectangle_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +31,10 @@
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="aks-dev" />
+    <option name="namespace" value="default" />
+  </component>
   <component name="ProjectId" id="1sOea0MjuD7IUyBwuo4sHo8oHG1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -49,7 +47,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/rectangle/test_data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -143,6 +141,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
