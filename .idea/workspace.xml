@@ -2,42 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d465754b-999a-4654-9bca-f7d20f11c74b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rectangle/test_data/rectangle_data_24.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rectangle/test_data/rectangle_data_25.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rectangle/test_data/rectangle_data_26.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rectangle/test_data/rectangle_data_27.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/adjacency.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/adjacency.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/containment.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/containment.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/intersection.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/intersection.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/root.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/root.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rectangle/adjacency.go" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/adjacency.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rectangle/figures/fig1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/figures/fig1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rectangle/figures/fig10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/figures/fig10.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rectangle/figures/fig11.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/figures/fig11.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rectangle/figures/fig12.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/figures/fig12.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rectangle/figures/fig13.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/figures/fig13.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rectangle/figures/fig14.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/figures/fig14.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rectangle/figures/fig15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/figures/fig15.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rectangle/figures/fig16.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/figures/fig16.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rectangle/figures/fig17.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/figures/fig17.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rectangle/figures/fig18.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/figures/fig18.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rectangle/figures/fig19.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/figures/fig19.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rectangle/figures/fig2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/figures/fig2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rectangle/figures/fig20.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/figures/fig20.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rectangle/figures/fig21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/figures/fig21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rectangle/figures/fig22.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/figures/fig22.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rectangle/figures/fig23.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/figures/fig23.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rectangle/figures/fig3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/figures/fig3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rectangle/figures/fig4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/figures/fig4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rectangle/figures/fig5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/figures/fig5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rectangle/figures/fig6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/figures/fig6.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rectangle/figures/fig7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/figures/fig7.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rectangle/figures/fig8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/figures/fig8.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rectangle/figures/fig9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/figures/fig9.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rectangle/location.go" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/location.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rectangle/rectangle.go" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/rectangle.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rectangle/rectangle_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle/rectangle_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,62 +49,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/rectangle/test_data" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/rectangle/test_data" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/rectangle" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestRectangle_Adjacency_23 in github.com/hugomatus/rcal/rectangle">
-    <configuration name="TestRectangle_Adjacency_19 in github.com/hugomatus/rcal/rectangle" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="rcal" />
-      <working_directory value="$PROJECT_DIR$/rectangle" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/hugomatus/rcal/rectangle" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestRectangle_Adjacency_19\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestRectangle_Adjacency_20 in github.com/hugomatus/rcal/rectangle" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="rcal" />
-      <working_directory value="$PROJECT_DIR$/rectangle" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/hugomatus/rcal/rectangle" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestRectangle_Adjacency_20\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestRectangle_Adjacency_21 in github.com/hugomatus/rcal/rectangle" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="rcal" />
-      <working_directory value="$PROJECT_DIR$/rectangle" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/hugomatus/rcal/rectangle" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestRectangle_Adjacency_21\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestRectangle_Adjacency_22 in github.com/hugomatus/rcal/rectangle" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="rcal" />
-      <working_directory value="$PROJECT_DIR$/rectangle" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/hugomatus/rcal/rectangle" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestRectangle_Adjacency_22\E$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.TestRectangle_Adjacency_27 in github.com/hugomatus/rcal/rectangle">
     <configuration name="TestRectangle_Adjacency_23 in github.com/hugomatus/rcal/rectangle" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="rcal" />
       <working_directory value="$PROJECT_DIR$/rectangle" />
@@ -147,13 +72,61 @@
       <pattern value="^\QTestRectangle_Adjacency_23\E$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestRectangle_Adjacency_24 in github.com/hugomatus/rcal/rectangle" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="rcal" />
+      <working_directory value="$PROJECT_DIR$/rectangle" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/hugomatus/rcal/rectangle" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestRectangle_Adjacency_24\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestRectangle_Adjacency_25 in github.com/hugomatus/rcal/rectangle" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="rcal" />
+      <working_directory value="$PROJECT_DIR$/rectangle" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/hugomatus/rcal/rectangle" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestRectangle_Adjacency_25\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestRectangle_Adjacency_26 in github.com/hugomatus/rcal/rectangle" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="rcal" />
+      <working_directory value="$PROJECT_DIR$/rectangle" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/hugomatus/rcal/rectangle" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestRectangle_Adjacency_26\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestRectangle_Adjacency_27 in github.com/hugomatus/rcal/rectangle" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="rcal" />
+      <working_directory value="$PROJECT_DIR$/rectangle" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/hugomatus/rcal/rectangle" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestRectangle_Adjacency_27\E$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestRectangle_Adjacency_27 in github.com/hugomatus/rcal/rectangle" />
+        <item itemvalue="Go Test.TestRectangle_Adjacency_26 in github.com/hugomatus/rcal/rectangle" />
+        <item itemvalue="Go Test.TestRectangle_Adjacency_24 in github.com/hugomatus/rcal/rectangle" />
+        <item itemvalue="Go Test.TestRectangle_Adjacency_25 in github.com/hugomatus/rcal/rectangle" />
         <item itemvalue="Go Test.TestRectangle_Adjacency_23 in github.com/hugomatus/rcal/rectangle" />
-        <item itemvalue="Go Test.TestRectangle_Adjacency_22 in github.com/hugomatus/rcal/rectangle" />
-        <item itemvalue="Go Test.TestRectangle_Adjacency_21 in github.com/hugomatus/rcal/rectangle" />
-        <item itemvalue="Go Test.TestRectangle_Adjacency_20 in github.com/hugomatus/rcal/rectangle" />
-        <item itemvalue="Go Test.TestRectangle_Adjacency_19 in github.com/hugomatus/rcal/rectangle" />
       </list>
     </recent_temporary>
   </component>

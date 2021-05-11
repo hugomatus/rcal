@@ -3,32 +3,28 @@ package rectangle
 type Adjacency string
 
 const (
-	 Proper        Adjacency = "Proper"
-	 Partial       Adjacency = "Partial"
-	 SubLine       Adjacency = "Sub-line"
-	 NoAjacency Adjacency = "None identified"
+	Proper     Adjacency = "Proper"
+	Partial    Adjacency = "Partial"
+	SubLine    Adjacency = "Sub-line"
+	NoAjacency Adjacency = "None identified"
 )
 
 // isAdjacent determines whether Rectangles R1 and R2 are adjacent
-func (r1 Rectangle) isAdjacent(r2 Rectangle) (bool,Adjacency) {
-
-	if !(len(r1.Intersection(r2)) == 0) || r1.Containment(r2) {
-		return false,NoAjacency
-	}
+func (r1 Rectangle) isAdjacent(r2 Rectangle) (bool, Adjacency) {
 
 	if r1.proper(r2) {
-		return true,Proper
+		return true, Proper
 	}
 
 	if r1.partial(r2) {
-		return true,Partial
+		return true, Partial
 	}
 
 	if r1.subline(r2) {
 		return true, SubLine
 	}
 
-	return false,NoAjacency
+	return false, NoAjacency
 }
 
 // proper
@@ -89,30 +85,28 @@ func (r1 Rectangle) partial(r2 Rectangle) bool {
 	return false
 }
 
-
 //TODO LoadFig
 
 // subline
 func (r1 Rectangle) subline(r2 Rectangle) bool {
-
 	//left or right
-	if r1.yMax() > r2.yMax() && r1.yMin() < r2.yMin() {
+	if r1.yMax() > r2.yMax() {
+		if r1.yMin() < r2.yMin() {
+			//right
+			if r1.xMax() == r2.xMin() {
+				//LoadFig
+				return true
+			}
 
-		//right
-		if r1.xMax() == r2.xMin() {
-			//LoadFig
-			return true
-		}
-
-		//left
-		if r1.xMin() == r2.xMax() {
-			//LoadFig
-			return true
+			//left
+			if r1.xMin() == r2.xMax() {
+				//LoadFig
+				return true
+			}
 		}
 	}
 
 	//top or bottom
-
 	if r1.xMax() > r2.xMax() && r1.xMin() < r2.xMin() {
 
 		//bottom
@@ -127,7 +121,6 @@ func (r1 Rectangle) subline(r2 Rectangle) bool {
 			return true
 		}
 	}
-
 
 	return false
 

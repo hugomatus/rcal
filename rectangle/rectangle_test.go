@@ -251,3 +251,123 @@ func TestRectangle_Adjacency_23(t *testing.T) {
 		t.Fail()
 	}
 }
+
+func TestRectangle_Adjacency_24(t *testing.T) {
+	file, err := os.Open("test_data/rectangle_data_24.json")
+
+	if err != nil {
+		t.Fail()
+	}
+
+	rectangles, err := Load(file)
+
+	adjacencyType := rectangles[0].Adjacency(rectangles[1])
+
+	got := adjacencyType
+
+	want:= SubLine
+
+	if !assert.Equal(t, want, got) {
+		t.Fail()
+	}
+}
+
+func TestRectangle_Adjacency_25(t *testing.T) {
+	file, err := os.Open("test_data/rectangle_data_25.json")
+
+	if err != nil {
+		t.Fail()
+	}
+
+	rectangles, err := Load(file)
+
+	adjacencyType := rectangles[0].Adjacency(rectangles[1])
+
+	got := adjacencyType
+
+	want:= SubLine
+
+	if !assert.Equal(t, want, got) {
+		t.Fail()
+	}
+}
+
+func TestRectangle_Adjacency_26(t *testing.T) {
+	file, err := os.Open("test_data/rectangle_data_26.json")
+
+	if err != nil {
+		t.Fail()
+	}
+
+	rectangles, err := Load(file)
+
+	adjacencyType := rectangles[0].Adjacency(rectangles[1])
+
+	got := adjacencyType
+
+	want:= SubLine
+
+	if !assert.Equal(t, want, got) {
+		t.Fail()
+	}
+}
+
+func TestRectangle_Adjacency_27(t *testing.T) {
+	file, err := os.Open("test_data/rectangle_data_27.json")
+
+	if err != nil {
+		t.Fail()
+	}
+
+	rectangles, err := Load(file)
+
+	adjacencyType := rectangles[0].Adjacency(rectangles[1])
+
+	got := adjacencyType
+
+	want:= SubLine
+
+	if !assert.Equal(t, want, got) {
+		t.Fail()
+	}
+}
+
+func TestRectangle_Adjacency_28(t *testing.T) {
+	file, err := os.Open("test_data/rectangle_data_15.json")
+
+	if err != nil {
+		t.Fail()
+	}
+
+	rectangles, err := Load(file)
+
+	adjacencyType := rectangles[0].Adjacency(rectangles[1])
+
+	got := adjacencyType
+
+	want:= NoAjacency
+
+	if !assert.Equal(t, want, got) {
+		t.Fail()
+	}
+}
+
+func TestRectangle_Adjacency_29(t *testing.T) {
+	file, err := os.Open("test_data/rectangle_data_2.json")
+
+	if err != nil {
+		t.Fail()
+	}
+
+	rectangles, err := Load(file)
+
+	adjacencyType := rectangles[0].Adjacency(rectangles[1])
+
+	got := adjacencyType
+
+	want:= NoAjacency
+
+	if !assert.Equal(t, want, got) {
+		t.Fail()
+	}
+}
