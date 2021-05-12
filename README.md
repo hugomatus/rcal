@@ -26,4 +26,53 @@ Flags:
 
 Use "rcal [command] --help" for more information about a command.
 ```
-  
+
+## Intersection
+
+```text
+$ rcal intersection
+Error: required flag(s) "rectangleA", "rectangleB" not set
+Usage:
+  rcal intersection [flags]
+
+Flags:
+  -h, --help                help for intersection
+  -a, --rectangleA string   rectangle A coords BottomLeft (x,y) and Top Right (x,y) as -a 6,4,14,10 -b  4,2,7,6
+  -b, --rectangleB string   rectangle B coords BottomLeft (x,y) and Top Right (x,y) as -a 6,4,14,10 -b  4,2,7,6
+
+Global Flags:
+      --config string   config file (default is $HOME/.rcal.yaml)
+
+Error: required flag(s) "rectangleA", "rectangleB" not set
+
+```
+
+### Command
+```text
+$rcal intersection -a 6,4,14,10 -b 4,2,7,6
+```
+### Output
+
+```text
+ TopLeft        TopRight        BottomLeft      BottomRight     xMin    xMax    yMin    yMax    
+ --------       --------        --------        --------        --------------------------------
+ {6 10}         {14 10}         {6 4}           {14 4}          6       14      4       10      
+
+ TopLeft        TopRight        BottomLeft      BottomRight     xMin    xMax    yMin    yMax    
+ --------       --------        --------        --------        --------------------------------
+ {4 6}          {7 6}           {4 2}           {7 2}           4       7       2       6       
+
++--------Reference--------+
++-------- Intersection in Block #1 --------+
+        +-----------+
+        |        R1 |
++-----------+       |
+| R2        |       |
+|           |-------+
++-----------+ 
+
+
+*** Intersection between Rectangle A and Rectanle b ***
+        Intersection in Block No. 1 : [{6 6} {7 4}]
+
+```
