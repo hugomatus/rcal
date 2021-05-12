@@ -178,3 +178,55 @@ $ rcal containment -a 6,4,14,10 -b 4,2,7,6
 *** Containment between Rectangle A and Rectangle B: NOT Found ***
 
 ```
+
+## Adjacency
+
+### Usage
+
+```text
+$ rcal adjacency -h
+calculates the adjacency between two rectangles
+
+Usage:
+  rcal adjacency [flags]
+
+Flags:
+  -h, --help                help for adjacency
+  -a, --rectangleA string   rectangle A coords
+  -b, --rectangleB string   rectangle B coords
+
+Global Flags:
+      --config string   config file (default is $HOME/.rcal.yaml)
+```
+
+### Command
+
+```text
+$ rcal adjacency -a 6,4,14,10 -b 6,1,14,4
+```
+
+### Output
+
+```text
+ TopLeft        TopRight        BottomLeft      BottomRight     xMin    xMax    yMin    yMax    
+ --------       --------        --------        --------        --------------------------------
+ {6 10}         {14 10}         {6 4}           {14 4}          6       14      4       10      
+
+ TopLeft        TopRight        BottomLeft      BottomRight     xMin    xMax    yMin    yMax    
+ --------       --------        --------        --------        --------------------------------
+ {6 4}          {14 4}          {6 1}           {14 1}          6       14      1       4       
+
++--------Reference--------+
++---------- Adjacency (Proper) ------------+
++--------+
+|R1      |
+|        |
++--------+
+| R2     |
+|        |
++--------+ 
+
+
+*** Adjacency between Rectangle A and Rectangle B : Proper ***
+
+```
