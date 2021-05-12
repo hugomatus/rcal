@@ -76,3 +76,25 @@ $rcal intersection -a 6,4,14,10 -b 4,2,7,6
         Intersection in Block No. 1 : [{6 6} {7 4}]
 
 ```
+
+### Command
+
+```text
+$ rcal intersection -a 6,4,14,10 -b 2,5,4,8
+```
+
+### Output
+
+```text
+ TopLeft        TopRight        BottomLeft      BottomRight     xMin    xMax    yMin    yMax    
+ --------       --------        --------        --------        --------------------------------
+ {6 10}         {14 10}         {6 4}           {14 4}          6       14      4       10      
+
+ TopLeft        TopRight        BottomLeft      BottomRight     xMin    xMax    yMin    yMax    
+ --------       --------        --------        --------        --------------------------------
+ {2 8}          {4 8}           {2 5}           {4 5}           2       4       5       8       
+
+
+*** Intersection between Rectangle A and Rectanle b: None Identified ***
+
+```
