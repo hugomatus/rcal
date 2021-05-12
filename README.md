@@ -230,3 +230,57 @@ $ rcal adjacency -a 6,4,14,10 -b 6,1,14,4
 *** Adjacency between Rectangle A and Rectangle B : Proper ***
 
 ```
+
+### Command
+
+```text
+$ rcal adjacency -a 6,4,14,10 -b 4,1,12,4
+```
+### Output
+
+```text
+
+ TopLeft        TopRight        BottomLeft      BottomRight     xMin    xMax    yMin    yMax    
+ --------       --------        --------        --------        --------------------------------
+ {6 10}         {14 10}         {6 4}           {14 4}          6       14      4       10      
+
+ TopLeft        TopRight        BottomLeft      BottomRight     xMin    xMax    yMin    yMax    
+ --------       --------        --------        --------        --------------------------------
+ {4 4}          {12 4}          {4 1}           {12 1}          4       12      1       4       
+
++--------Reference--------+
++---------- Adjacency (Partial) ------------+
+    +-------+
+    | R2    |
+    |       |
+    |       |
++--------+--+
+|  R1    |
+|        |
+|        |
++--------+ 
+
+
+*** Adjacency between Rectangle A and Rectangle B : Partial ***
+
+```
+
+### Command
+
+```text
+rcal adjacency -a 6,4,14,10 -b 14,6,16,8
+```
+### Output
+
+```text
+ TopLeft        TopRight        BottomLeft      BottomRight     xMin    xMax    yMin    yMax    
+ --------       --------        --------        --------        --------------------------------
+ {6 10}         {14 10}         {6 4}           {14 4}          6       14      4       10      
+
+ TopLeft        TopRight        BottomLeft      BottomRight     xMin    xMax    yMin    yMax    
+ --------       --------        --------        --------        --------------------------------
+ {14 8}         {16 8}          {14 6}          {16 6}          14      16      6       8       
+
+
+*** Adjacency between Rectangle A and Rectangle B : Sub-line ***
+```
